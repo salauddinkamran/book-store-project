@@ -1,5 +1,7 @@
 // import React from 'react';
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import Freebook from "./components/Freebook";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -7,6 +9,8 @@ const App = () => {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <Freebook></Freebook>
+      <Footer></Footer>
     </>
   );
 };

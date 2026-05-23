@@ -1,6 +1,19 @@
 // import React from "react";
 
+import { useEffect, useState } from "react";
+
 const Navbar = () => {
+  const [sticky, setSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+    window.addEventListener("scrollY", handleScroll);
+  }, []);
   const links = (
     <>
       <li>
@@ -18,7 +31,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="container mx-auto md:px-20 px-4">
+    <div
+      className={`container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 ${sticky ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out" : ""}`}
+    >
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -52,7 +67,7 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
-          <label className="input">
+          <label className="input hidden md:flex">
             <svg
               className="h-[1em] opacity-50"
               xmlns="http://www.w3.org/2000/svg"

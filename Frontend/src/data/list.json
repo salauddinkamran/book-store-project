@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "A beautiful story book for beginners and young readers.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript Basics",
+    "title": "Learn JavaScript fundamentals with easy examples.",
+    "price": 12,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+  },
+  {
+    "id": 3,
+    "name": "React Guide",
+    "title": "Master React with hands-on projects and exercises.",
+    "price": 18,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 4,
+    "name": "Tailwind CSS",
+    "title": "Modern UI design using Tailwind CSS framework.",
+    "price": 10,
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66"
+  },
+  {
+    "id": 5,
+    "name": "Node.js Handbook",
+    "title": "Backend development with Node.js and Express.",
+    "price": 15,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "id": 6,
+    "name": "MongoDB Essentials",
+    "title": "Database management and MongoDB basics.",
+    "price": 14,
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353"
+  },
+  {
+    "id": 7,
+    "name": "Python for Beginners",
+    "title": "Start your programming journey with Python.",
+    "price": 20,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d"
+  },
+  {
+    "id": 8,
+    "name": "HTML & CSS",
+    "title": "Complete frontend basics for web developers.",
+    "price": 8,
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931"
+  },
+  {
+    "id": 9,
+    "name": "UI/UX Design",
+    "title": "Learn modern UI and UX design principles.",
+    "price": 16,
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb"
+  },
+  {
+    "id": 10,
+    "name": "Data Structures",
+    "title": "Understand algorithms and data structures deeply.",
+    "price": 25,
+    "category": "Computer Science",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 11,
+    "name": "Machine Learning",
+    "title": "Introduction to machine learning concepts and AI.",
+    "price": 30,
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+  },
+  {
+    "id": 12,
+    "name": "Cyber Security",
+    "title": "Protect systems and learn ethical hacking basics.",
+    "price": 22,
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87"
+  },
+  {
+    "id": 13,
+    "name": "C Programming",
+    "title": "Classic C programming language for beginners.",
+    "price": 9,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+  },
+  {
+    "id": 14,
+    "name": "Java Complete Guide",
+    "title": "Object-oriented programming with Java.",
+    "price": 19,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0"
+  },
+  {
+    "id": 15,
+    "name": "Digital Marketing",
+    "title": "Grow online business with marketing strategies.",
+    "price": 13,
+    "category": "Marketing",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+  },
+  {
+    "id": 16,
+    "name": "Photography Basics",
+    "title": "Capture stunning photos like a professional.",
+    "price": 11,
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+  },
+  {
+    "id": 17,
+    "name": "Business Strategy",
+    "title": "Learn how successful businesses grow and scale.",
+    "price": 21,
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "id": 18,
+    "name": "Graphic Design",
+    "title": "Creative graphic design techniques and tools.",
+    "price": 17,
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d"
+  },
+  {
+    "id": 19,
+    "name": "English Grammar",
+    "title": "Improve your English grammar and writing skills.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a"
+  },
+  {
+    "id": 20,
+    "name": "Advanced React",
+    "title": "Build scalable apps using advanced React concepts.",
+    "price": 35,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+  },
+  {
+    "id": 21,
+    "name": "Vue.js Essentials",
+    "title": "Learn Vue.js framework with practical examples.",
+    "price": 18,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 22,
+    "name": "Angular Basics",
+    "title": "Complete beginner guide to Angular development.",
+    "price": 20,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+  },
+  {
+    "id": 23,
+    "name": "Next.js Handbook",
+    "title": "Server-side rendering and routing with Next.js.",
+    "price": 24,
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931"
+  },
+  {
+    "id": 24,
+    "name": "TypeScript Mastery",
+    "title": "Strongly typed JavaScript development with TypeScript.",
+    "price": 22,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+  },
+  {
+    "id": 25,
+    "name": "Docker Guide",
+    "title": "Containerization and deployment using Docker.",
+    "price": 19,
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+  },
+  {
+    "id": 26,
+    "name": "Kubernetes Basics",
+    "title": "Orchestrate containers efficiently with Kubernetes.",
+    "price": 28,
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 27,
+    "name": "Linux Command Line",
+    "title": "Master Linux terminal commands and shell scripting.",
+    "price": 12,
+    "category": "Operating System",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    "id": 28,
+    "name": "Git & GitHub",
+    "title": "Version control and collaboration using GitHub.",
+    "price": 9,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb"
+  },
+  {
+    "id": 29,
+    "name": "Firebase Crash Course",
+    "title": "Authentication and database setup with Firebase.",
+    "price": 15,
+    "category": "Backend",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+  },
+  {
+    "id": 30,
+    "name": "REST API Design",
+    "title": "Learn scalable API development techniques.",
+    "price": 18,
+    "category": "Backend",
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f"
+  },
+  {
+    "id": 31,
+    "name": "GraphQL Fundamentals",
+    "title": "Efficient data querying using GraphQL APIs.",
+    "price": 21,
+    "category": "Backend",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "id": 32,
+    "name": "Artificial Intelligence",
+    "title": "Understand AI concepts and applications.",
+    "price": 32,
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+  },
+  {
+    "id": 33,
+    "name": "Deep Learning",
+    "title": "Neural networks and deep learning techniques.",
+    "price": 35,
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72"
+  },
+  {
+    "id": 34,
+    "name": "Cloud Computing",
+    "title": "Introduction to AWS, Azure, and cloud systems.",
+    "price": 26,
+    "category": "Cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+  },
+  {
+    "id": 35,
+    "name": "Data Analysis",
+    "title": "Analyze and visualize data effectively.",
+    "price": 17,
+    "category": "Data Science",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 36,
+    "name": "Excel Advanced",
+    "title": "Advanced Excel formulas and automation.",
+    "price": 11,
+    "category": "Office Tools",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f"
+  },
+  {
+    "id": 37,
+    "name": "Public Speaking",
+    "title": "Improve confidence and communication skills.",
+    "price": 8,
+    "category": "Self Development",
+    "image": "https://images.unsplash.com/photo-1515169067868-5387ec356754"
+  },
+  {
+    "id": 38,
+    "name": "Creative Writing",
+    "title": "Write engaging stories and articles creatively.",
+    "price": 10,
+    "category": "Writing",
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a"
+  },
+  {
+    "id": 39,
+    "name": "SEO Fundamentals",
+    "title": "Search engine optimization for websites.",
+    "price": 14,
+    "category": "Marketing",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+  },
+  {
+    "id": 40,
+    "name": "Social Media Marketing",
+    "title": "Grow audiences using social media platforms.",
+    "price": 16,
+    "category": "Marketing",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+  },
+  {
+    "id": 41,
+    "name": "Canva Design",
+    "title": "Design stunning graphics easily with Canva.",
+    "price": 7,
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d"
+  },
+  {
+    "id": 42,
+    "name": "Adobe Photoshop",
+    "title": "Professional image editing and manipulation.",
+    "price": 29,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f"
+  },
+  {
+    "id": 43,
+    "name": "Video Editing",
+    "title": "Edit cinematic videos with modern tools.",
+    "price": 23,
+    "category": "Multimedia",
+    "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4"
+  },
+  {
+    "id": 44,
+    "name": "Music Production",
+    "title": "Create professional music and audio tracks.",
+    "price": 27,
+    "category": "Music",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d"
+  },
+  {
+    "id": 45,
+    "name": "Mobile App Development",
+    "title": "Build Android and iOS apps efficiently.",
+    "price": 30,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c"
+  },
+  {
+    "id": 46,
+    "name": "Flutter Complete Guide",
+    "title": "Cross-platform mobile apps using Flutter.",
+    "price": 26,
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3"
+  },
+  {
+    "id": 47,
+    "name": "Blockchain Basics",
+    "title": "Understand blockchain and cryptocurrency concepts.",
+    "price": 33,
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040"
+  },
+  {
+    "id": 48,
+    "name": "Ethical Hacking",
+    "title": "Learn penetration testing and cyber defense.",
+    "price": 34,
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87"
+  },
+  {
+    "id": 49,
+    "name": "Networking Basics",
+    "title": "Computer networking and internet fundamentals.",
+    "price": 13,
+    "category": "Networking",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 50,
+    "name": "Entrepreneurship",
+    "title": "Start and grow your own successful business.",
+    "price": 18,
+    "category": "Free",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  }
+]
