@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 import list from "../data/list.json";
+import Cards from "./Cards";
 const Freebook = () => {
   const filterData = list.filter((data) => data.category === "Free");
   console.log(filterData);
@@ -49,15 +50,9 @@ const Freebook = () => {
           modules={[Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          {filterData.map((item) => (
+            <Cards item={item} key={item.id} />
+          ))}
         </Swiper>
       </div>
     </div>
