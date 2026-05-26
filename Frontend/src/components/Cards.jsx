@@ -2,7 +2,7 @@ const Cards = ({ item }) => {
   console.log(item);
   return (
     <>
-      <div class="card bg-base-100 w-92 shadow-sm">
+      <div class="card bg-base-100 w-96 shadow-sm">
         <figure>
           <img className="h-[256px] w-full" src={item.image} alt="Shoes" />
         </figure>
