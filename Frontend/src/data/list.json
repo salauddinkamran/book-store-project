@@ -331,7 +331,7 @@
     "id": 42,
     "name": "Adobe Photoshop",
     "title": "Professional image editing and manipulation.",
-    "price": 29,
+    "price": 0,
     "category": "Free",
     "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f"
   },
@@ -395,7 +395,7 @@
     "id": 50,
     "name": "Entrepreneurship",
     "title": "Start and grow your own successful business.",
-    "price": 18,
+    "price": 0,
     "category": "Free",
     "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
   }

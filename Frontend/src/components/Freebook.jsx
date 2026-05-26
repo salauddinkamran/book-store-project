@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import list from "../data/list.json";
 import Cards from "./Cards";
 const Freebook = () => {
@@ -18,7 +18,7 @@ const Freebook = () => {
 
   return (
     <div className="container mx-auto md:px-20 px-4">
-      <div>
+      <div className="mb-10">
         <h1 className="text-2xl font-bold pb-2">Free Offered Courses</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -30,9 +30,15 @@ const Freebook = () => {
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
-          pagination={{
-            clickable: true,
+          loop={true}
+          grabCursor={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
           }}
+          // pagination={{
+          //   clickable: true,
+          // }}
           breakpoints={{
             640: {
               slidesPerView: 1,
@@ -47,11 +53,13 @@ const Freebook = () => {
               spaceBetween: 50,
             },
           }}
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
           {filterData.map((item) => (
-            <Cards item={item} key={item.id} />
+            <SwiperSlide key={item.id}>
+              <Cards item={item}></Cards>
+            </SwiperSlide>
           ))}
         </Swiper>
       </div>

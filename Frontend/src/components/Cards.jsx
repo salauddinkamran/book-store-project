@@ -1,27 +1,20 @@
-const Cards = () => {
+const Cards = ({ item }) => {
+  console.log(item);
   return (
     <>
-      <div>
-        <div class="$$card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
-          </figure>
-          <div class="$$card-body">
-            <h2 class="$$card-title">
-              Card Title
-              <div class="$$badge $$badge-secondary">NEW</div>
-            </h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
-            </p>
-            <div class="$$card-actions justify-end">
-              <div class="$$badge $$badge-outline">Fashion</div>
-              <div class="$$badge $$badge-outline">Products</div>
-            </div>
+      <div class="card bg-base-100 w-92 shadow-sm">
+        <figure>
+          <img className="h-[256px] w-full" src={item.image} alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">
+            {item.name}
+            <span class="badge badge-secondary">{item.category}</span>
+          </h2>
+          <p className="my-5 text-sm">{item.title}</p>
+          <div class="card-actions justify-between">
+            <div class="badge badge-outline">${item.price}</div>
+            <div class="cursor-pointer hover:bg-pink-500 py-1 px-2 rounded-md border-[1px]">Buy now</div>
           </div>
         </div>
       </div>
