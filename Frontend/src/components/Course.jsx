@@ -16,7 +16,7 @@ const Course = () => {
           aliquid, magni eum dignissimos veniam iusto! Consectetur ipsam soluta
           harum alias eius dolor!
         </p>
-        <button className="bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300 mt-6">
+        <button className="bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300 mt-6">x
           Back
         </button>
       </div>
