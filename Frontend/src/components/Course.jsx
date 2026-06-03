@@ -1,4 +1,7 @@
 import React from "react";
+import Cards from "./Cards";
+import list from "../data/list.json";
+import { Link } from "react-router";
 
 const Course = () => {
   return (
@@ -16,9 +19,16 @@ const Course = () => {
           aliquid, magni eum dignissimos veniam iusto! Consectetur ipsam soluta
           harum alias eius dolor!
         </p>
-        <button className="bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300 mt-6">
-          Back
-        </button>
+        <Link to="/">
+          <button className="cursor-pointer bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300 mt-6">
+            Back
+          </button>
+        </Link>
+      </div>
+      <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+        {list.map((item) => (
+          <Cards key={item.id} item={item} />
+        ))}
       </div>
     </div>
   );
