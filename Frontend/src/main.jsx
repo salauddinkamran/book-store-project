@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Courses from "./Courses/Courses.jsx";
+import Signup from "./components/Signup.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/course",
     element: <Courses />,
+  },
+  {
+    path: "/signup",
+    element: <Signup />,
   },
 ]);
 createRoot(document.getElementById("root")).render(
